@@ -5,12 +5,16 @@
 
 body {
     background-color: rgb(29, 29, 29);
-    background-image: url(./images/header.PNG);
-    background-repeat:no-repeat;
-    background-position:right;
-    
-    
 }
+
+img{
+    position:fixed;
+    float:right;
+    margin-top:80px;
+    margin-left:250px;
+
+}
+
 
 footer {
     position: fixed;
