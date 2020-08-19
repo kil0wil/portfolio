@@ -12,6 +12,14 @@ i{
     text-shadow:3px 3px 3px rgb(0,0,0);
 }
 
+#socialMedia{
+    float:right;
+    word-spacing:10px;
+    
+}
+
+
+
 h1 {
     font-family: 'Do Hyeon', sans-serif;
     text-transform:uppercase;
@@ -42,12 +50,17 @@ form {
 
 .column1 {
     float: right;
-    background-color:pink;
+    width:500px;
+    border-style:solid;
+    border-color:darkred;
+    border-width:3px;
 }
 
 .column2{
     float:left;
-    background-color:purple;
+    width:800Px;
+    background-color:darkred;
+    color:whitesmoke;
     
     
 }
