@@ -50,7 +50,7 @@ form {
 
 .column1 {
     float: right;
-    width:500px;
+    width: 50%;
     border-style:solid;
     border-color:darkred;
     border-width:3px;
@@ -58,7 +58,7 @@ form {
 
 .column2{
     float:left;
-    width:800Px;
+    width:60%;
     background-color:darkred;
     color:whitesmoke;
     
