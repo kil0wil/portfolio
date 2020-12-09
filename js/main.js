@@ -15,14 +15,14 @@ function homePage() {
 //about me page
 function aboutMe() {
   document.getElementById("content").innerHTML =
-    "<div class='container'><section class='column2'><h2>Here is my story</h2>I am born and raised in Long Beach,ca. I am marraid and a father of two adventerous wild boys.  I <b>started</b> coding because I was curious on how things worked.  I taught myslef HTML, then CSS, Javascript, and jquary.  I ended up getting side track on my journey and started teaching myself python and C#.  I even converted to linux started playing around with different flavors ran a LAMP stack, got even more distracted with linux kali.  Now <b> 4 years </b> later my skills are shareper, and I have a very diverse knowldege on dev ops.<br /><strong>Currently</strong> I am enrolled in college seeking my bachelor in <strong>cyber security</strong>.  What I am looking for is the <strong>oppurtunity</strong> to better my skills and to start a career in this field.<article><p></p></article></section><section class='column1'><h2>My reading list</h2><ul><li>HTML & CSS</li><li>JAVASCRIPT & JQUERY</li><li>Eloquent Javascript</li><li>Above the Fold</li><li>Learning PHP</li><li>Data Visualization with Javascript</li><li>learning node</li><li>the SEO battlefield</li></ul></section></div>";
+    "<div class='container'><section class='column2'><h2>Here is my story</h2>I am born and raised in Long Beach,ca. I am marraid and a father of two adventerous wild boys.  I <b>started</b> coding because I was curious on how things worked.  I taught myslef HTML, then CSS, Javascript, and jquary.  I ended up getting side track on my journey and started teaching myself python and C#.  I even converted to linux started playing around with different flavors ran a LAMP stack, got even more distracted with linux kali.  Now <b> 4 years </b> later my skills are sharper, and I have a very diverse knowldege on dev ops.<br /><strong>Currently</strong> I am enrolled in college seeking my bachelor in <strong>cyber security</strong>.  What I am looking for is the <strong>oppurtunity</strong> to better my skills and to start a career in this field.<article><p></p></article></section><section class='column1'><h2>My reading list</h2><ul><li>HTML & CSS</li><li>JAVASCRIPT & JQUERY</li><li>Eloquent Javascript</li><li>Above the Fold</li><li>Learning PHP</li><li>Data Visualization with Javascript</li><li>learning node</li><li>the SEO battlefield</li></ul></section></div>";
   document.getElementById("contentTitle").innerHTML = "About Me";
   document.getElementById("contentQuote").innerHTML = randomQuotes();
 }
 //skills page
 function mySkill() {
   document.getElementById("content").innerHTML =
-    "<h2>What I can do for you</h2><ul><li>Responsive Designs</li><li>E-Commerce designs</li><li>Database</li><li>Logo Designs</li><li></li>"
+    "<iframe src='http://slumdawgs.com/' title='slumdawgs ecom' width=500px height = 500px></iframe><br><a href='http://slumdawgs.com'>SlumDawgs</a><br><p>eCommerce store made with MERN stack,built from the bottom up."
   document.getElementById("contentTitle").innerHTML = "skills";
   document.getElementById("contentQuote").innerHTML = randomQuotes();
 }
